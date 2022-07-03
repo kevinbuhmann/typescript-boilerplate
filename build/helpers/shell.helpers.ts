@@ -16,7 +16,7 @@ export function execute(command: string, options?: SpawnOptions, bailOnError = t
     stdio: 'inherit',
     shell: true,
     ...options,
-    env: makeChildProcessEnv(options && options.env ? options.env : {})
+    env: makeChildProcessEnv(options && options.env ? options.env : {}),
   };
 
   return promisifyProcess(command, () => spawn(command, [], spawnOptions), bailOnError);

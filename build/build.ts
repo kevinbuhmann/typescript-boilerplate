@@ -12,7 +12,7 @@ const defaultOptionsFn = (args: Options) => ({
   clean: true,
   lint: !args.watch,
   watch: false,
-  test: !args.watch
+  test: !args.watch,
 });
 
 const options = parseFlags(process.argv.slice(2), defaultOptionsFn);

@@ -8,7 +8,7 @@ interface Options {
 
 const defaultOptionsFn = (args: Options) => ({
   unit: !args.e2e,
-  e2e: !args.unit
+  e2e: !args.unit,
 });
 
 const options = parseFlags(process.argv.slice(2), defaultOptionsFn);

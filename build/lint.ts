@@ -4,7 +4,7 @@ import { parseFlags } from './helpers/utility.helpers';
 const defaultOptionsFn = () => ({
   prettier: true,
   tslint: true,
-  fix: false
+  fix: false,
 });
 
 const options = parseFlags(process.argv.slice(2), defaultOptionsFn);
