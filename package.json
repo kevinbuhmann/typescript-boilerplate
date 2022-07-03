@@ -6,8 +6,8 @@
   "bin": {
     "typescript-boilerplate": "./dist/typescript-boilerplate-cli.js"
   },
-  "repository": "https://github.com/kevinphelps/typescript-boilerplate.git",
-  "author": "Kevin Phelps <KevinPhelps11@gmail.com>",
+  "repository": "https://github.com/kevinbuhmann/typescript-boilerplate.git",
+  "author": "Kevin Buhmann <kevin@kevinbuhmann.dev>",
   "license": "MIT",
   "scripts": {
     "lint": "ts-node ./build/lint.ts",

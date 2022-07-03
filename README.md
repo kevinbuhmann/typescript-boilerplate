@@ -31,7 +31,7 @@ Yet another TypeScript starter.
 
 ## Staying up-to-date with this starter
 
-First, run `git remote add boilerplate https://github.com/kevinphelps/typescript-boilerplate.git`.
+First, run `git remote add boilerplate https://github.com/kevinbuhmann/typescript-boilerplate.git`.
 You only need to do this once.
 
 Now you can cherry-pick commits from this repo to your project.
@@ -40,12 +40,12 @@ Now you can cherry-pick commits from this repo to your project.
 2. Run `git cherry-pick SHA --no-commit`.
 3. Fix any conflicts and run your build and tests.
 4. Run `git commit` and update the commit message.
-   Add `kevinphelps/typescript-boilerplate@SHA` to the commit message.
+   Add `kevinbuhmann/typescript-boilerplate@SHA` to the commit message.
 
-You can run `git log --grep "kevinphelps/typescript-boilerplate"` to keep track of which commits
+You can run `git log --grep "kevinbuhmann/typescript-boilerplate"` to keep track of which commits
 from this project you have integrated into your project.
 
 ## Example projects using this starter
 
-- https://github.com/kevinphelps/nganalyzer
+- https://github.com/kevinbuhmann/nganalyzer
 - https://github.com/vintage-software/vstack-typescript-generator
